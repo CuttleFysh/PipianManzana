@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1ACC3C1D2D7C8000D17399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC3B1D2D7C8000D17399 /* AppDelegate.swift */; };
+		8E1ACC3E1D2D7C8000D17399 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC3D1D2D7C8000D17399 /* CardsViewController.swift */; };
+		8E1ACC411D2D7C8000D17399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1ACC3F1D2D7C8000D17399 /* Main.storyboard */; };
+		8E1ACC431D2D7C8000D17399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1ACC421D2D7C8000D17399 /* Assets.xcassets */; };
+		8E1ACC461D2D7C8000D17399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1ACC441D2D7C8000D17399 /* LaunchScreen.storyboard */; };
+		8E1ACC511D2D7C8100D17399 /* PipianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC501D2D7C8100D17399 /* PipianTests.swift */; };
+		8E1ACC5C1D2D7C8100D17399 /* PipianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC5B1D2D7C8100D17399 /* PipianUITests.swift */; };
+		8E1ACC6A1D2D8D6E00D17399 /* profile-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1ACC691D2D8D6E00D17399 /* profile-user.png */; };
+		8E1ACC6C1D2D8EAA00D17399 /* shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1ACC6B1D2D8EAA00D17399 /* shuffle.png */; };
+		8E1ACC6E1D2D925F00D17399 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC6D1D2D925F00D17399 /* UserViewController.swift */; };
+		8E1ACC711D2D969500D17399 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC701D2D969500D17399 /* ExchangeViewController.swift */; };
+		8E27086C1D2EEE0000E764BF /* CardsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27086B1D2EEE0000E764BF /* CardsCollectionViewController.swift */; };
+		8E73763B1D41DF39005D546D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73763A1D41DF39005D546D /* OtherViewController.swift */; };
+		8E9D8BF91D3AE45200CB8B9B /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9D8BF81D3AE45200CB8B9B /* InfoTableViewCell.swift */; };
+		8E9DEFEE1D30442F00B9DB37 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DEFED1D30442F00B9DB37 /* iCarousel.m */; };
+		8E9DEFF01D30497D00B9DB37 /* cardtemp.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DEFEF1D30497D00B9DB37 /* cardtemp.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E1ACC4D1D2D7C8100D17399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1ACC301D2D7C8000D17399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1ACC371D2D7C8000D17399;
+			remoteInfo = Pipian;
+		};
+		8E1ACC581D2D7C8100D17399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1ACC301D2D7C8000D17399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1ACC371D2D7C8000D17399;
+			remoteInfo = Pipian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E1ACC381D2D7C8000D17399 /* Pipian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pipian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1ACC3B1D2D7C8000D17399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E1ACC3D1D2D7C8000D17399 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		8E1ACC401D2D7C8000D17399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1ACC421D2D7C8000D17399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1ACC451D2D7C8000D17399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1ACC471D2D7C8000D17399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1ACC4C1D2D7C8000D17399 /* PipianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1ACC501D2D7C8100D17399 /* PipianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipianTests.swift; sourceTree = "<group>"; };
+		8E1ACC521D2D7C8100D17399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1ACC571D2D7C8100D17399 /* PipianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1ACC5B1D2D7C8100D17399 /* PipianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipianUITests.swift; sourceTree = "<group>"; };
+		8E1ACC5D1D2D7C8100D17399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1ACC691D2D8D6E00D17399 /* profile-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-user.png"; path = "../../../../Downloads/profile-user.png"; sourceTree = "<group>"; };
+		8E1ACC6B1D2D8EAA00D17399 /* shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shuffle.png; path = ../../../../Downloads/shuffle.png; sourceTree = "<group>"; };
+		8E1ACC6D1D2D925F00D17399 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		8E1ACC701D2D969500D17399 /* ExchangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		8E27086B1D2EEE0000E764BF /* CardsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewController.swift; sourceTree = "<group>"; };
+		8E73763A1D41DF39005D546D /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		8E9D8BF81D3AE45200CB8B9B /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		8E9DEFEB1D30442E00B9DB37 /* Pipian-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pipian-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E9DEFEC1D30442F00B9DB37 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		8E9DEFED1D30442F00B9DB37 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		8E9DEFEF1D30497D00B9DB37 /* cardtemp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardtemp.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1ACC351D2D7C8000D17399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1ACC491D2D7C8000D17399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1ACC541D2D7C8100D17399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1ACC2F1D2D7C8000D17399 = {
+			isa = PBXGroup;
+			children = (
+				8E1ACC3A1D2D7C8000D17399 /* Pipian */,
+				8E1ACC4F1D2D7C8100D17399 /* PipianTests */,
+				8E1ACC5A1D2D7C8100D17399 /* PipianUITests */,
+				8E1ACC391D2D7C8000D17399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1ACC391D2D7C8000D17399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1ACC381D2D7C8000D17399 /* Pipian.app */,
+				8E1ACC4C1D2D7C8000D17399 /* PipianTests.xctest */,
+				8E1ACC571D2D7C8100D17399 /* PipianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1ACC3A1D2D7C8000D17399 /* Pipian */ = {
+			isa = PBXGroup;
+			children = (
+				8E1ACC3B1D2D7C8000D17399 /* AppDelegate.swift */,
+				8E1ACC3D1D2D7C8000D17399 /* CardsViewController.swift */,
+				8E1ACC6D1D2D925F00D17399 /* UserViewController.swift */,
+				8E1ACC701D2D969500D17399 /* ExchangeViewController.swift */,
+				8E9D8BF81D3AE45200CB8B9B /* InfoTableViewCell.swift */,
+				8E1ACC3F1D2D7C8000D17399 /* Main.storyboard */,
+				8E73763A1D41DF39005D546D /* OtherViewController.swift */,
+				8E1ACC421D2D7C8000D17399 /* Assets.xcassets */,
+				8E1ACC6B1D2D8EAA00D17399 /* shuffle.png */,
+				8E1ACC691D2D8D6E00D17399 /* profile-user.png */,
+				8E27086B1D2EEE0000E764BF /* CardsCollectionViewController.swift */,
+				8E1ACC441D2D7C8000D17399 /* LaunchScreen.storyboard */,
+				8E1ACC471D2D7C8000D17399 /* Info.plist */,
+				8E9DEFEC1D30442F00B9DB37 /* iCarousel.h */,
+				8E9DEFED1D30442F00B9DB37 /* iCarousel.m */,
+				8E9DEFEF1D30497D00B9DB37 /* cardtemp.png */,
+				8E9DEFEB1D30442E00B9DB37 /* Pipian-Bridging-Header.h */,
+			);
+			path = Pipian;
+			sourceTree = "<group>";
+		};
+		8E1ACC4F1D2D7C8100D17399 /* PipianTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1ACC501D2D7C8100D17399 /* PipianTests.swift */,
+				8E1ACC521D2D7C8100D17399 /* Info.plist */,
+			);
+			path = PipianTests;
+			sourceTree = "<group>";
+		};
+		8E1ACC5A1D2D7C8100D17399 /* PipianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1ACC5B1D2D7C8100D17399 /* PipianUITests.swift */,
+				8E1ACC5D1D2D7C8100D17399 /* Info.plist */,
+			);
+			path = PipianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1ACC371D2D7C8000D17399 /* Pipian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1ACC601D2D7C8100D17399 /* Build configuration list for PBXNativeTarget "Pipian" */;
+			buildPhases = (
+				8E1ACC341D2D7C8000D17399 /* Sources */,
+				8E1ACC351D2D7C8000D17399 /* Frameworks */,
+				8E1ACC361D2D7C8000D17399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pipian;
+			productName = Pipian;
+			productReference = 8E1ACC381D2D7C8000D17399 /* Pipian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E1ACC4B1D2D7C8000D17399 /* PipianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1ACC631D2D7C8100D17399 /* Build configuration list for PBXNativeTarget "PipianTests" */;
+			buildPhases = (
+				8E1ACC481D2D7C8000D17399 /* Sources */,
+				8E1ACC491D2D7C8000D17399 /* Frameworks */,
+				8E1ACC4A1D2D7C8000D17399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1ACC4E1D2D7C8100D17399 /* PBXTargetDependency */,
+			);
+			name = PipianTests;
+			productName = PipianTests;
+			productReference = 8E1ACC4C1D2D7C8000D17399 /* PipianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E1ACC561D2D7C8100D17399 /* PipianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1ACC661D2D7C8100D17399 /* Build configuration list for PBXNativeTarget "PipianUITests" */;
+			buildPhases = (
+				8E1ACC531D2D7C8100D17399 /* Sources */,
+				8E1ACC541D2D7C8100D17399 /* Frameworks */,
+				8E1ACC551D2D7C8100D17399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1ACC591D2D7C8100D17399 /* PBXTargetDependency */,
+			);
+			name = PipianUITests;
+			productName = PipianUITests;
+			productReference = 8E1ACC571D2D7C8100D17399 /* PipianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1ACC301D2D7C8000D17399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CuttleFysh;
+				TargetAttributes = {
+					8E1ACC371D2D7C8000D17399 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8E1ACC4B1D2D7C8000D17399 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8E1ACC371D2D7C8000D17399;
+					};
+					8E1ACC561D2D7C8100D17399 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8E1ACC371D2D7C8000D17399;
+					};
+				};
+			};
+			buildConfigurationList = 8E1ACC331D2D7C8000D17399 /* Build configuration list for PBXProject "Pipian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1ACC2F1D2D7C8000D17399;
+			productRefGroup = 8E1ACC391D2D7C8000D17399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1ACC371D2D7C8000D17399 /* Pipian */,
+				8E1ACC4B1D2D7C8000D17399 /* PipianTests */,
+				8E1ACC561D2D7C8100D17399 /* PipianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1ACC361D2D7C8000D17399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1ACC6A1D2D8D6E00D17399 /* profile-user.png in Resources */,
+				8E1ACC6C1D2D8EAA00D17399 /* shuffle.png in Resources */,
+				8E1ACC461D2D7C8000D17399 /* LaunchScreen.storyboard in Resources */,
+				8E9DEFF01D30497D00B9DB37 /* cardtemp.png in Resources */,
+				8E1ACC431D2D7C8000D17399 /* Assets.xcassets in Resources */,
+				8E1ACC411D2D7C8000D17399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1ACC4A1D2D7C8000D17399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1ACC551D2D7C8100D17399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1ACC341D2D7C8000D17399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1ACC3E1D2D7C8000D17399 /* CardsViewController.swift in Sources */,
+				8E1ACC711D2D969500D17399 /* ExchangeViewController.swift in Sources */,
+				8E73763B1D41DF39005D546D /* OtherViewController.swift in Sources */,
+				8E1ACC6E1D2D925F00D17399 /* UserViewController.swift in Sources */,
+				8E9DEFEE1D30442F00B9DB37 /* iCarousel.m in Sources */,
+				8E9D8BF91D3AE45200CB8B9B /* InfoTableViewCell.swift in Sources */,
+				8E1ACC3C1D2D7C8000D17399 /* AppDelegate.swift in Sources */,
+				8E27086C1D2EEE0000E764BF /* CardsCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1ACC481D2D7C8000D17399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1ACC511D2D7C8100D17399 /* PipianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1ACC531D2D7C8100D17399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1ACC5C1D2D7C8100D17399 /* PipianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1ACC4E1D2D7C8100D17399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1ACC371D2D7C8000D17399 /* Pipian */;
+			targetProxy = 8E1ACC4D1D2D7C8100D17399 /* PBXContainerItemProxy */;
+		};
+		8E1ACC591D2D7C8100D17399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1ACC371D2D7C8000D17399 /* Pipian */;
+			targetProxy = 8E1ACC581D2D7C8100D17399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E1ACC3F1D2D7C8000D17399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1ACC401D2D7C8000D17399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1ACC441D2D7C8000D17399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1ACC451D2D7C8000D17399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E1ACC5E1D2D7C8100D17399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E1ACC5F1D2D7C8100D17399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1ACC611D2D7C8100D17399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Pipian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuttlefysh.Pipian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pipian/Pipian-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E1ACC621D2D7C8100D17399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Pipian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuttlefysh.Pipian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pipian/Pipian-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8E1ACC641D2D7C8100D17399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PipianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuttlefysh.PipianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pipian.app/Pipian";
+			};
+			name = Debug;
+		};
+		8E1ACC651D2D7C8100D17399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PipianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuttlefysh.PipianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pipian.app/Pipian";
+			};
+			name = Release;
+		};
+		8E1ACC671D2D7C8100D17399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PipianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuttlefysh.PipianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pipian;
+			};
+			name = Debug;
+		};
+		8E1ACC681D2D7C8100D17399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PipianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuttlefysh.PipianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pipian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1ACC331D2D7C8000D17399 /* Build configuration list for PBXProject "Pipian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1ACC5E1D2D7C8100D17399 /* Debug */,
+				8E1ACC5F1D2D7C8100D17399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1ACC601D2D7C8100D17399 /* Build configuration list for PBXNativeTarget "Pipian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1ACC611D2D7C8100D17399 /* Debug */,
+				8E1ACC621D2D7C8100D17399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1ACC631D2D7C8100D17399 /* Build configuration list for PBXNativeTarget "PipianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1ACC641D2D7C8100D17399 /* Debug */,
+				8E1ACC651D2D7C8100D17399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1ACC661D2D7C8100D17399 /* Build configuration list for PBXNativeTarget "PipianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1ACC671D2D7C8100D17399 /* Debug */,
+				8E1ACC681D2D7C8100D17399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E1ACC301D2D7C8000D17399 /* Project object */;
+}
