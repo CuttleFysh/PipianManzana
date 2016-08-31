@@ -8,11 +8,14 @@
 
 import UIKit
 
-class UserViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
+let editingNotificationKey = "editing.has.been.pressed"
+let doneNotificationKey = "editing.has.finished"
+
+class UserViewController: UIViewController/*, UITableViewDataSource, UITableViewDelegate*/
 {
-    @IBOutlet var tableView: UITableView!
-    var nameCell = [String]()
-    var infoCell = [String]()
+    //@IBOutlet var tableView: UITableView!
+    //var nameCell = [String]()
+    //var infoCell = [String]()
     var editMode = false
     
     override func viewDidLoad() {
@@ -23,18 +26,23 @@ class UserViewController: UIViewController, UITableViewDataSource, UITableViewDe
         buttonA.frame = CGRectMake(0, 0, 31, 31)
         buttonA.setImage(UIImage(named: "shuffle.png"), forState: .Normal)
         buttonA.addTarget(self, action: #selector(openAdd),forControlEvents: .TouchUpInside)*/
+        
+        let buttonE = UIBarButtonItem(title: "Edit", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(showEditing))
+        navigationItem.rightBarButtonItem = buttonE
+        
+        /* If more cards are added
         let buttonA = UIButton(type: UIButtonType.ContactAdd)
         buttonA.addTarget(self, action: #selector(openAdd), forControlEvents: .TouchUpInside)
         let addButton = UIBarButtonItem()
         addButton.customView = buttonA
         let editButton = UIBarButtonItem(title: "Edit", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(showEditing))
-        navigationItem.rightBarButtonItems = [addButton, editButton]
+        navigationItem.rightBarButtonItems = [addButton, editButton]*/
         // Ends nav bar modifications
         // Datasource for table view
-        nameCell = ["Degree", "Name", "Company", "Position", "Phone",
+        /*nameCell = ["Degree", "Name", "Company", "Position", "Phone",
                     "E-mail", "Website", "Twitter", "Facebook", "LinkedIn"]
         infoCell = ["-", "Jose Tlacuilo", "CuttleFysh Co.", "Founder", "+527771100038",
-                    "jose.tlacuilo@gmail.com", "cuttlefysh.com", "@tlacuilose", "./TlacuiloJose", "-"]
+                    "jose.tlacuilo@gmail.com", "cuttlefysh.com", "@tlacuilose", "./TlacuiloJose", "-"]*/
         
     }
     
@@ -45,25 +53,26 @@ class UserViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func showEditing(sender: UIBarButtonItem)
     {
-        let indexPath = NSIndexPath(forRow: 1, inSection: 0)
-        let firstCell = tableView.cellForRowAtIndexPath(indexPath) as? InfoTableViewCell
+        NSNotificationCenter.defaultCenter().postNotificationName(editingNotificationKey, object: self)
+        /*let indexPath = NSIndexPath(forRow: 1, inSection: 0)
+        let firstCell = tableView.cellForRowAtIndexPath(indexPath) as? InfoTableViewCell*/
         if (editMode)
         {
             editMode = false
-            firstCell?.infoLabel.hidden = false
-            firstCell?.infoField.hidden = true
-            self.navigationItem.rightBarButtonItems?[1].title = "Edit"
+            NSNotificationCenter.defaultCenter().postNotificationName(doneNotificationKey, object: self)
+            //self.navigationItem.rightBarButtonItems?[1].title = "Edit"
+            self.navigationItem.rightBarButtonItem?.title = "Edit"
         }
         else
         {
             editMode = true
-            firstCell?.infoLabel.hidden = true
-            firstCell?.infoField.hidden = false
-            self.navigationItem.rightBarButtonItems?[1].title = "Done"
+            NSNotificationCenter.defaultCenter().postNotificationName(editingNotificationKey, object: self)
+            //self.navigationItem.rightBarButtonItems?[1].title = "Done"
+            self.navigationItem.rightBarButtonItem?.title = "Done"
         }
     }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    /*func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
     
@@ -83,7 +92,7 @@ class UserViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Information"
-    }
+    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

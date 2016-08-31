@@ -29,17 +29,20 @@ class CardsViewController: UIViewController, iCarouselDataSource, iCarouselDeleg
         // Navigation controller modifications: COLOR MODIFICATIONS
         navigationController!.navigationBar.barTintColor = UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0)
         // User button on nav bar
+        let buttonU = UIBarButtonItem(title: "My card", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(openUser))
+        navigationItem.leftBarButtonItem = buttonU
+        /* User button with image
         let buttonU = UIButton()
         buttonU.frame = CGRectMake(0, 0, 31, 31)
-        buttonU.setImage(UIImage(named: "profile-user.png"), forState: .Normal)
+        buttonU.setImage(UIImage(named: "cardtemp.png"), forState: .Normal)
         buttonU.addTarget(self, action: #selector(openUser),forControlEvents: .TouchUpInside)
         let userButton = UIBarButtonItem()
         userButton.customView = buttonU
-        navigationItem.leftBarButtonItem = userButton;
+        navigationItem.leftBarButtonItem = userButton;*/
         // Exchange button on nav bar
         let buttonE = UIButton()
         buttonE.frame = CGRectMake(0, 0, 31, 31)
-        buttonE.setImage(UIImage(named: "shuffle.png"), forState: .Normal)
+        buttonE.setImage(UIImage(named: "canrdtemp.png"), forState: .Normal)
         buttonE.addTarget(self, action: #selector(openExg),forControlEvents: .TouchUpInside)
         let exgButton = UIBarButtonItem()
         exgButton.customView = buttonE

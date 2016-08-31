@@ -14,15 +14,15 @@
 		8E1ACC461D2D7C8000D17399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1ACC441D2D7C8000D17399 /* LaunchScreen.storyboard */; };
 		8E1ACC511D2D7C8100D17399 /* PipianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC501D2D7C8100D17399 /* PipianTests.swift */; };
 		8E1ACC5C1D2D7C8100D17399 /* PipianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC5B1D2D7C8100D17399 /* PipianUITests.swift */; };
-		8E1ACC6A1D2D8D6E00D17399 /* profile-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1ACC691D2D8D6E00D17399 /* profile-user.png */; };
-		8E1ACC6C1D2D8EAA00D17399 /* shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1ACC6B1D2D8EAA00D17399 /* shuffle.png */; };
 		8E1ACC6E1D2D925F00D17399 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC6D1D2D925F00D17399 /* UserViewController.swift */; };
 		8E1ACC711D2D969500D17399 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ACC701D2D969500D17399 /* ExchangeViewController.swift */; };
 		8E27086C1D2EEE0000E764BF /* CardsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27086B1D2EEE0000E764BF /* CardsCollectionViewController.swift */; };
+		8E393C491D5BA334007E0153 /* UInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E393C481D5BA334007E0153 /* UInfoTableViewController.swift */; };
 		8E73763B1D41DF39005D546D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73763A1D41DF39005D546D /* OtherViewController.swift */; };
 		8E9D8BF91D3AE45200CB8B9B /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9D8BF81D3AE45200CB8B9B /* InfoTableViewCell.swift */; };
 		8E9DEFEE1D30442F00B9DB37 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DEFED1D30442F00B9DB37 /* iCarousel.m */; };
 		8E9DEFF01D30497D00B9DB37 /* cardtemp.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DEFEF1D30497D00B9DB37 /* cardtemp.png */; };
+		8EF983291D76834900618A6F /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF983281D76834900618A6F /* UserTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,17 +56,17 @@
 		8E1ACC571D2D7C8100D17399 /* PipianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1ACC5B1D2D7C8100D17399 /* PipianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipianUITests.swift; sourceTree = "<group>"; };
 		8E1ACC5D1D2D7C8100D17399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E1ACC691D2D8D6E00D17399 /* profile-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile-user.png"; path = "../../../../Downloads/profile-user.png"; sourceTree = "<group>"; };
-		8E1ACC6B1D2D8EAA00D17399 /* shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shuffle.png; path = ../../../../Downloads/shuffle.png; sourceTree = "<group>"; };
 		8E1ACC6D1D2D925F00D17399 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		8E1ACC701D2D969500D17399 /* ExchangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
 		8E27086B1D2EEE0000E764BF /* CardsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewController.swift; sourceTree = "<group>"; };
+		8E393C481D5BA334007E0153 /* UInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UInfoTableViewController.swift; sourceTree = "<group>"; };
 		8E73763A1D41DF39005D546D /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 		8E9D8BF81D3AE45200CB8B9B /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
 		8E9DEFEB1D30442E00B9DB37 /* Pipian-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pipian-Bridging-Header.h"; sourceTree = "<group>"; };
 		8E9DEFEC1D30442F00B9DB37 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		8E9DEFED1D30442F00B9DB37 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		8E9DEFEF1D30497D00B9DB37 /* cardtemp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardtemp.png; sourceTree = "<group>"; };
+		8EF983281D76834900618A6F /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +125,7 @@
 				8E1ACC3F1D2D7C8000D17399 /* Main.storyboard */,
 				8E73763A1D41DF39005D546D /* OtherViewController.swift */,
 				8E1ACC421D2D7C8000D17399 /* Assets.xcassets */,
-				8E1ACC6B1D2D8EAA00D17399 /* shuffle.png */,
-				8E1ACC691D2D8D6E00D17399 /* profile-user.png */,
+				8E393C481D5BA334007E0153 /* UInfoTableViewController.swift */,
 				8E27086B1D2EEE0000E764BF /* CardsCollectionViewController.swift */,
 				8E1ACC441D2D7C8000D17399 /* LaunchScreen.storyboard */,
 				8E1ACC471D2D7C8000D17399 /* Info.plist */,
@@ -134,6 +133,7 @@
 				8E9DEFED1D30442F00B9DB37 /* iCarousel.m */,
 				8E9DEFEF1D30497D00B9DB37 /* cardtemp.png */,
 				8E9DEFEB1D30442E00B9DB37 /* Pipian-Bridging-Header.h */,
+				8EF983281D76834900618A6F /* UserTableViewController.swift */,
 			);
 			path = Pipian;
 			sourceTree = "<group>";
@@ -260,8 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1ACC6A1D2D8D6E00D17399 /* profile-user.png in Resources */,
-				8E1ACC6C1D2D8EAA00D17399 /* shuffle.png in Resources */,
 				8E1ACC461D2D7C8000D17399 /* LaunchScreen.storyboard in Resources */,
 				8E9DEFF01D30497D00B9DB37 /* cardtemp.png in Resources */,
 				8E1ACC431D2D7C8000D17399 /* Assets.xcassets in Resources */,
@@ -290,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF983291D76834900618A6F /* UserTableViewController.swift in Sources */,
 				8E1ACC3E1D2D7C8000D17399 /* CardsViewController.swift in Sources */,
 				8E1ACC711D2D969500D17399 /* ExchangeViewController.swift in Sources */,
 				8E73763B1D41DF39005D546D /* OtherViewController.swift in Sources */,
+				8E393C491D5BA334007E0153 /* UInfoTableViewController.swift in Sources */,
 				8E1ACC6E1D2D925F00D17399 /* UserViewController.swift in Sources */,
 				8E9DEFEE1D30442F00B9DB37 /* iCarousel.m in Sources */,
 				8E9D8BF91D3AE45200CB8B9B /* InfoTableViewCell.swift in Sources */,

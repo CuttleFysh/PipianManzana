@@ -12,6 +12,5 @@ class InfoTableViewCell: UITableViewCell
 {
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var infoLabel: UILabel!
-    @IBOutlet var infoField: UITextField!
-    
+    @IBOutlet var infoField: UITextField!   
 }
