@@ -24,7 +24,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LQ0-gB-56U">
                                 <rect key="frame" x="28" y="405" width="473" height="128"/>
                                 <connections>
-                                    <segue destination="5mZ-Yo-L2H" kind="embed" id="gaf-v0-2rk"/>
+                                    <segue destination="5mZ-Yo-L2H" kind="embed" id="iDX-h3-Zhy"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -69,16 +69,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czb-Fo-cUy">
-                                                    <rect key="frame" x="252" y="7" width="97" height="30"/>
+                                                    <rect key="frame" x="188" y="7" width="161" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cuttlefysh Co." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pL-hx-iwH">
-                                                    <rect key="frame" x="191" y="14" width="113" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -342,12 +336,11 @@
                     <size key="freeformSize" width="473" height="1000"/>
                     <connections>
                         <outlet property="companyField" destination="czb-Fo-cUy" id="e9F-th-mku"/>
-                        <outlet property="companyLabel" destination="5pL-hx-iwH" id="W0x-rc-jO9"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rSq-1r-4JW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="91.5" y="-683"/>
+            <point key="canvasLocation" x="112.5" y="-671"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZDY-Bp-ezU">

@@ -12,6 +12,8 @@ class UserTableViewController: UITableViewController {
 
     @IBOutlet var companyField: UITextField!
     @IBOutlet var companyLabel: UILabel!
+    var popover: UIPopoverController? = nil
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
